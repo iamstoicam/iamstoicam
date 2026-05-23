@@ -1,0 +1,40 @@
+<svg width="680" height="270" viewBox="0 0 680 270" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Juan Camilo Bonilla Falla — física y programación">
+  <style>
+    text { font-family: 'JetBrains Mono', 'SF Mono', ui-monospace, Menlo, Consolas, monospace; }
+    .fg    { fill: #d4be98; }
+    .name  { fill: #a9b665; font-weight: 600; }
+    .key   { fill: #7daea3; }
+    .gold  { fill: #d8a657; }
+    .dim   { fill: #928374; }
+  </style>
+
+  <!-- fondo -->
+  <rect width="680" height="270" rx="10" fill="#282828"/>
+  <rect x="10" y="10" width="660" height="250" rx="7" fill="none" stroke="#3c3836" stroke-width="1"/>
+
+  <!-- emblema lambda -->
+  <text x="52" y="100" class="gold" font-size="22">&#955; iamstoicam</text>
+  <line x1="74" y1="112" x2="196" y2="112" stroke="#d8a657" stroke-width="1.2" stroke-opacity="0.6"/>
+
+  <!-- nombre + regla -->
+  <text x="250" y="66" class="name" font-size="17">Juan Camilo Bonilla Falla</text>
+  <line x1="250" y1="80" x2="610" y2="80" stroke="#3c3836" stroke-width="1.4"/>
+
+  <!-- tabla de datos: etiquetas en x=250, valores en x=340 -->
+  <text y="108" font-size="14"><tspan x="250" class="key">campo</tspan><tspan x="340" class="fg">física · programación</tspan></text>
+  <text y="134" font-size="14"><tspan x="250" class="key">stack</tspan><tspan x="340" class="fg">javascript · typescript · react</tspan></text>
+  <text y="158" font-size="14"><tspan x="250" class="key"></tspan><tspan x="340" class="fg">python · latex</tspan></text>
+
+  <!-- separador inferior -->
+  <line x1="52" y1="182" x2="628" y2="182" stroke="#3c3836" stroke-width="1"/>
+
+  <!-- descripción -->
+  <text x="52" y="206" class="dim" font-size="12.5">Estudiante de física en la Universidad Nacional de Colombia.</text>
+  <text x="52" y="224" class="dim" font-size="12.5">Construyo software y herramientas para pensar mejor.</text>
+
+  <!-- puntos de lenguajes, en su propia línea -->
+  <circle cx="54" cy="250" r="4" fill="#d8a657"/><text x="64" y="254" class="dim" font-size="12">js / ts</text>
+  <circle cx="128" cy="250" r="4" fill="#7daea3"/><text x="138" y="254" class="dim" font-size="12">react</text>
+  <circle cx="192" cy="250" r="4" fill="#a9b665"/><text x="202" y="254" class="dim" font-size="12">python</text>
+  <circle cx="262" cy="250" r="4" fill="#d3869b"/><text x="272" y="254" class="dim" font-size="12">latex</text>
+</svg>
